@@ -10,12 +10,10 @@
 with open('datos_peliculas.csv') as open_file:
     # file = []
     file = open_file.readlines()
-    print(file)
+    print(file[0])
     open_file.close()
 
-
 # No olvides cerrar el archivo
-
 
 ###############################################
 
@@ -46,9 +44,6 @@ for fila in file:
     if t:
         datos_listos.append(f'{film};{opening_weekend};{worldwide_gross};{budget}')
 
-
-
-
 ###############################################
 
 # Ejercicio 3
@@ -60,10 +55,6 @@ for fila in file:
 
 with open('datos_peliculas_procesados.csv', 'w') as open_file:
     open_file.write('\n'.join(datos_listos))
-
-for fila in datos_listos:
-    print(fila)
-
 
 
 
