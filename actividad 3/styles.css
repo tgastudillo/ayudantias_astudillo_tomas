@@ -57,6 +57,29 @@ div {
     padding: 1px;
 }
 
+button {
+    border: 2px solid #008CBA;
+    background-color: white; 
+    color: black; 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.botones {
+    margin: 20px;
+    text-align: center;
+}
+
 @media (max-width: 600px) {
     nav,
     article {
