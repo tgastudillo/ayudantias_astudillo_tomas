@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+.titulo {
+    margin: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(177, 106, 13);
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+nav {
+    padding-top: 40px;
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+section {
+    height: 500px;
+}
+
+.miclase1 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.miclase2 {
+    float: left;
+    width: 100%;
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+div {
+    padding: 1px;
+}
+
+button {
+    border: 2px solid #008CBA;
+    background-color: white; 
+    color: black; 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.botones {
+    margin: 20px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    nav,
+    article {
+        width: 100%;
+        height: auto;
+    }
+}
